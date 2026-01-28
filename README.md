@@ -52,7 +52,8 @@ I wrote a Python script to handle backend fulfillment. This script acts as the c
 
 👉 **View the full source code here:** [`lambda_function.py`](./lambda_function.py)
 
-![Lambda Console Screenshot](Add_Lambda_Screenshot_Here.png)
+<img width="1920" height="1280" alt="2  script" src="https://github.com/user-attachments/assets/a2c56201-dbbe-4146-83c3-81f56899be9b" />
+
 
 ### 2. Creating the Bot (Amazon Lex)
 I configured a custom bot with 6 specific intents covering the most common recruitment questions:
@@ -63,12 +64,14 @@ I configured a custom bot with 6 specific intents covering the most common recru
 * `GetContact`
 * `GetGreetings`
 
-![Lex Console Screenshot](Add_Lex_Console_Screenshot_Here.png)
+<img width="1920" height="1280" alt="4  intent" src="https://github.com/user-attachments/assets/e2bf0bf7-5995-4214-a752-47691aead4af" />
+
 
 ### 3. Frontend Integration
 I integrated the bot into my `index.html` using a custom script that forces a "Welcome" event on load, ensuring the user sees the menu immediately.
 
-![Website Chatbot Screenshot](Add_Website_Chatbot_Screenshot_Here.png)
+<img width="1920" height="1280" alt="8  ai incorporation" src="https://github.com/user-attachments/assets/715109fc-ff03-4974-b4d0-08ca22a92b23" />
+
 
 ---
 
