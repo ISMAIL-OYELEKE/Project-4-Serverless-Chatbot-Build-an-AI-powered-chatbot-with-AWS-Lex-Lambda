@@ -50,7 +50,9 @@ The solution uses a **Serverless Event-Driven Architecture**:
 ### 1. Building the "Brain" (AWS Lambda)
 I wrote a Python script to handle backend fulfillment. This script acts as the central logic, deciding what text or links to send back based on the user's question.
 
-![Lambda Code Screenshot](Add_Lambda_Screenshot_Here.png)
+👉 **View the full source code here:** [`lambda_function.py`](./lambda_function.py)
+
+![Lambda Console Screenshot](Add_Lambda_Screenshot_Here.png)
 
 ### 2. Creating the Bot (Amazon Lex)
 I configured a custom bot with 6 specific intents covering the most common recruitment questions:
@@ -83,6 +85,8 @@ I integrated the bot into my `index.html` using a custom script that forces a "W
 ---
 
 ## 🏆 Project Outcome
+I successfully deployed a fully functional AI assistant on ismailoyeleke.com. The bot correctly identifies user intent, serves dynamic content (links, lists) via Python, and handles errors gracefully. This project demonstrates proficiency in Serverless Logic, Natural Language Understanding, and Frontend-Backend Integration.
+
 * **Cost:** $0.00 (Utilizing AWS Free Tier for Lambda & Lex).
 * **Performance:** Sub-second response latency.
 * **Availability:** 24/7 uptime with no server management required.
