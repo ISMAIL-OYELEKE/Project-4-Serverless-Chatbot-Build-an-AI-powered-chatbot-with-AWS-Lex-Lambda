@@ -16,7 +16,9 @@ The bot answers instantly with dynamic data fetched from the cloud.
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](Add_Your_Architecture_Diagram_Here.png)
+![architecture](https://github.com/user-attachments/assets/408a2098-c39e-4ac4-bbe2-dda775175f16)
+
+
 *(Replace the link above with your actual architecture diagram image)*
 
 The solution uses a **Serverless Event-Driven Architecture**:
