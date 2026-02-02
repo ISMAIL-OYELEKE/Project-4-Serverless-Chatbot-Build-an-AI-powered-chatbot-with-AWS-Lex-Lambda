@@ -18,9 +18,6 @@ The bot answers instantly with dynamic data fetched from the cloud.
 
 ![architecture](https://github.com/user-attachments/assets/408a2098-c39e-4ac4-bbe2-dda775175f16)
 
-
-*(Replace the link above with your actual architecture diagram image)*
-
 The solution uses a **Serverless Event-Driven Architecture**:
 1.  **Frontend:** The user chats via the **Kommunicate.io** widget embedded on the portfolio site.
 2.  **NLU Layer:** **Amazon Lex V2** processes the text to understand User Intent (e.g., "GetSkills").
